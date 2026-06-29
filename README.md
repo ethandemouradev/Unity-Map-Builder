@@ -17,4 +17,4 @@ This was only posted for a S&Box Application, but if you want to use it go ahead
  7. To use this in game, attach World Manager to a script. Assign the asset pack you will be using. call WorldManager.Singleton.BuildWorld and pass in the world object. Here is an example of getting the world object: WorldFileManager.LoadWorld("worldFolderName") by default it loads maps from the save place where it saves them too. I use this in my multiplayer game since I can use the code in both my server and client, and just have to send the map name across the network and have the map files on both. Can also give to your users and not give the WorldManager class so they can build maps for the game, and you can have premade assets for them with assigned ids
 
 REQUIREMENTS: UnityEngine
----
+----
